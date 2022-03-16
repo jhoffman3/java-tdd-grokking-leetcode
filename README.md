@@ -34,7 +34,7 @@ available in the Leetcode Runner. EG use of Lombok.
 There are often many correct ways to solve the same problem. However, interviewers are opinionated. Thus, some solutions offer the solution that the interviewer "wants" to see. 
 
 While Big O complexity is important, not all solutions are fully optimized. Thus, when looking at solutions on leetcode and comparing them to other solutions, this projects selects the solution that we think best fits the goal of the interviewer, and is reasonably easy to recall while under the stress of a coding interview. YMMV.
-###Roadmap:
+### Roadmap:
 - keep adding problems/solutions until all GROKKING NOTES covered
 - additional explanatory comments on the solutions
 - update to Junit Jupiter
