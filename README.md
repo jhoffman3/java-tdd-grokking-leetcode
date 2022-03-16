@@ -22,14 +22,14 @@ In most cases this probject attempts to structure classes such that a solution c
 verification etc. However, that is not the main goal so in some cases the solution may make use of libraries not 
 available in the Leetcode Runner. EG use of Lombok. 
 
-###Layout:
+### Layout:
 
 - Package names reflect pattern names from GROKKING NOTES
 - Classname reflects problem name
 - Solution comments, if any, are in comments in implementation class
 - Problem details from leetcode are in comments in the test source
 
-###What this project does not do:
+### What this project does not do:
 
 There are often many correct ways to solve the same problem. However, interviewers are opinionated. Thus, some solutions offer the solution that the interviewer "wants" to see. 
 
