@@ -128,3 +128,9 @@ hs_err_pid*
 
 .idea/libraries
 .run/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
