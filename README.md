@@ -1,5 +1,5 @@
 # java-tdd-grokking-leetcode
-Solutions to leetcode problems in Java with tests created using TDD 
+Solutions to LeetCode problems in Java with tests created using TDD 
 
 This project was inspired by the GROKKING NOTES project https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4
 
@@ -9,21 +9,21 @@ A copy of the above markdown source is included in this project (downloaded from
 
 [grokking_to_leetcode.md](./grokking_to_leetcode.md)
 
-This project is a set of Java solutions and tests for the problems using TDD practices. I recently had to study up from some interviewing and although 
-these aren't the problems I would ever ask an application programmer to solve many employers fall back to these 
-sort of questions. I followed this pattern:
+This project is a set of Java solutions and tests for the problems using TDD practices. I recently had to study up for some interviewing and although 
+these aren't the problems I would usually ask an application programmer to solve many employers fall back to these 
+sorts of questions. I followed this pattern:
 
 - Pick a problem from GROKKING NOTES
 - Put the details into a failing test
-- Follow TDD practices and attempt the solution
-- Review solutions that have been submitted on leetcode for better technique/performance etc. 
-- Fully implement the selected solution to pass leetcode tests
+- Follow TDD practices and attempt the solution for 30 minutes
+- Review solutions that have been submitted on LeetCode for better suitability/complexity/performance etc. 
+- Fully implement the selected solution to pass LeetCode tests
 - Study & understand the solution until you can rapidly identify the appropriate pattern for solving the problem. 
 - Practice coding solutions in an interview test scenario
 
-In most cases this probject attempts to structure classes such that a solution could be copy/pasted to Leetcode for
+In most cases this project attempts to structure classes such that a solution could be copy/pasted to Leetcode for
 verification etc. However, that is not the main goal so in some cases the solution may make use of libraries not 
-available in the Leetcode Runner. EG use of Lombok. 
+available in the Leetcode Runner. EG Lombok. 
 
 ### Layout:
 
