@@ -1,4 +1,4 @@
-package com.thispc.twoheaps;
+package com.thispc.slidingwindow;
 
 /*
 1 <= nums.length <= 10^5

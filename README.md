@@ -3,8 +3,11 @@ Solutions to leetcode problems in Java with tests created using TDD
 
 This project was inspired by the GROKKING NOTES project https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4
 
+The above project is a markdown file that maps several LeetCode problems to patterns for practice and study.
 
-Please see the explanation of that project for a mapping of leetcode problems to patterns. 
+A copy of the above markdown source is included in this project (downloaded from github 2022-03-22): 
+
+[grokking_to_leetcode.md](./grokking_to_leetcode.md)
 
 This project is a set of Java solutions and tests for the problems using TDD practices. I recently had to study up from some interviewing and although 
 these aren't the problems I would ever ask an application programmer to solve many employers fall back to these 

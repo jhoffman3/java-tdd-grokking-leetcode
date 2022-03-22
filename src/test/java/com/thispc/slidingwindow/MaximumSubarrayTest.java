@@ -1,5 +1,6 @@
-package com.thispc.twoheaps;
+package com.thispc.slidingwindow;
 
+import com.thispc.slidingwindow.MaximumSubarray;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
