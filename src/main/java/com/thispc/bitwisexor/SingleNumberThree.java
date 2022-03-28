@@ -1,30 +1,35 @@
 package com.thispc.bitwisexor;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+/*
+    This solution relies on the fact that XOR-ing all elements of an array equals the value of a non-repeating value.
+    @see {@link SingleNumber}
+ */
 
 public class SingleNumberThree {
 
     public int[] singleNumber(int[] nums) {
-        int[] result = new int[2];
-        int xxory = 0;
+        int xOry = 0;
 
+        // Take xor of all the elements in the nums array.
+        // Result is xor of the two unique elements i.e. xOry (if x,y are the only elements that appear once)
         for (int val: nums){
-            xxory = xxory ^ val;      // sum of non-repeating
+            xOry ^= val;
         }
 
-        int rsbm = xxory & -xxory;
-        int x = 0, y = 0;
+        // Find the right-most set bit mask
+        int rsbm = xOry & -xOry;
+        int x = 0;
+        int y = 0;
 
+        // Take xor of all values with bit off (x) or on (y)
         for (int val: nums){
-            if ((val & rsbm) == 0) {  //This condition checks if the number of 1s are even, this means that the bit is off.{
+            if ((val & rsbm) == 0) {  //This condition checks if the number of 1s are even, this means that the bit is off.
                 x = x ^ val;
-            } else { // This means the number of bits are odd i.e the bit is on.
+            } else { // This means the number of bits are odd i.e. the bit is on.
                 y = y ^ val;
             }
         }
-        result[0] = x;
-        result[1] = y;
-        return result;
+
+        return new int[]{x,y};
     }
 }
