@@ -1,5 +1,9 @@
 package com.thispc.util;
 
+import com.thispc.kwaymerge.ListNode;
+
+import java.util.Objects;
+
 public class TestUtils {
 
     /*
@@ -17,5 +21,18 @@ public class TestUtils {
         long remainingNanos = elapsedNanos % 1000000;
         System.out.println(elapsedMillis + " ms " + elapsedMillis + remainingNanos + " ns");
     }
+
+    public static void printRecursive(ListNode head) {
+        if (head != null) {
+            System.out.print(head.getVal());
+            if (!Objects.isNull(head.getNext())) {
+                System.out.print("->");
+            } else {
+                System.out.println();
+            }
+            printRecursive(head.getNext());
+        }
+    }
+
 }
 
