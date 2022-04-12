@@ -1,7 +1,7 @@
 package com.thispc.slidingwindow;
 
 public class MinimumSizeSubarraySum {
-    
+
     public int minSubArrayLen(int target, int[] nums) {
 
         // two pointer
