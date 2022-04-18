@@ -25,19 +25,19 @@ In most cases this project attempts to structure classes such that a solution co
 verification etc. However, that is not the main goal so in some cases the solution may make use of libraries not 
 available in the Leetcode Runner. EG Lombok. 
 
-### Layout:
+### Layout
 
-- Package names reflect pattern names from GROKKING NOTES
+- Package names reflect pattern names from GROKKING NOTES where applicable
 - Classname reflects problem name
 - Solution comments, if any, are in comments in implementation class
-- Problem details from leetcode are in comments in the test source
+- Problem details from LeetCode are in comments in the test source
 
-### What this project does not do:
+### What this project does not do
 
 There are often many correct ways to solve the same problem. However, interviewers are opinionated. Thus, some solutions offer the solution that the interviewer "wants" to see. 
 
 While Big O complexity is important, not all solutions are fully optimized. Thus, when looking at solutions on leetcode and comparing them to other solutions, this projects selects the solution that we think best fits the goal of the interviewer, and is reasonably easy to recall while under the stress of a coding interview. YMMV.
-### Roadmap:
+### Roadmap
 - keep adding problems/solutions until all GROKKING NOTES covered
 - additional explanatory comments on the solutions
 - update to Junit Jupiter
